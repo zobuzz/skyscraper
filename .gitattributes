@@ -1,0 +1,35 @@
+# Let git normalise text by default; the explicit rules below matter more.
+* text=auto
+
+# Unity serialises scenes, prefabs, .asset and .meta as YAML. They must stay
+# LF: CRLF in a .meta breaks the GUID parser on some importer versions, and
+# CRLF in a scene makes every line look changed on the next platform to open it.
+*.unity      text eol=lf
+*.prefab     text eol=lf
+*.asset      text eol=lf
+*.meta       text eol=lf
+*.mat        text eol=lf
+*.anim       text eol=lf
+*.controller text eol=lf
+*.physicMaterial2D text eol=lf
+
+*.cs         text eol=lf diff=csharp
+*.json       text eol=lf
+*.md         text eol=lf
+*.shader     text eol=lf
+*.txt        text eol=lf
+
+# Binary -- never diff, never touch line endings.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.psd  binary
+*.tga  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
+*.fbx  binary
+*.skel binary
+*.unitypackage binary

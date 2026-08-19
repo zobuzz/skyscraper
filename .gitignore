@@ -1,0 +1,103 @@
+# ---------------------------------------------------------------------------
+# Unity generated / machine-local
+# ---------------------------------------------------------------------------
+# All of these are rebuilt by the editor from Assets + Packages + ProjectSettings.
+# Library alone is 2.3 GB here, which is why none of it belongs in git.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store downloads
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ---------------------------------------------------------------------------
+# IDE / solution files
+# ---------------------------------------------------------------------------
+# Unity regenerates every .csproj and .sln from the asmdefs, so committing them
+# just produces churn on machines with different package paths.
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vsconfig
+.idea/
+/.gradle/
+
+# Rider / Visual Studio local caches
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ---------------------------------------------------------------------------
+# OS noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Crash / build artefacts
+# ---------------------------------------------------------------------------
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# ---------------------------------------------------------------------------
+# Extracted third-party art -- see docs/ART.md
+# ---------------------------------------------------------------------------
+# These are ripped from the original Douyin mini-game's AssetBundles and are
+# its copyright, not this project's. They are deliberately NOT committed, and
+# the code is written so their absence is not fatal: Figures.BuildHero and
+# BuildEnemy return null when the sprite is missing and Prefabs.cs falls back
+# to procedural coloured shapes (Prefabs.cs:121, :150, :187). The project
+# compiles and plays without them -- it just looks like flat polygons.
+#
+# To populate them, run the extraction yourself against your own copy of the
+# game. docs/ART.md documents the pipeline and the exact filenames expected.
+/[Aa]ssets/Resources/Bricks/
+/[Aa]ssets/Resources/Figures/
+# ...and their folder .meta files. Unity deletes a .meta whose folder is absent,
+# so committing these would make every fresh clone dirty on first open.
+/[Aa]ssets/Resources/Bricks.meta
+/[Aa]ssets/Resources/Figures.meta
+
+# Editor-run probe output, regenerated on every play session.
+/BattleProbe.txt
+/[Aa]ssets/UnityMCP/Log/
+
+# MCP-for-Unity checks its own repo out here as a git dependency.
+/Unity-mcp/
+
+# ---------------------------------------------------------------------------
+# Secrets
+# ---------------------------------------------------------------------------
+# Nothing in this project reads these today; they are listed so that adding a
+# keystore or a service token later cannot silently become a public commit.
+*.keystore
+*.jks
+*.p12
+*.pem
+.env
+.env.*
+secrets.json

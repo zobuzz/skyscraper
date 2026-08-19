@@ -1,0 +1,538 @@
+[
+ {
+  "ID": 10001,
+  "SoundName": "bgm/ui_music_main",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 1.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10002,
+  "SoundName": "bgm/ui_music_battle",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 1.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10003,
+  "SoundName": "bgm/ui_music_shouqiao",
+  "Volume": 0.6,
+  "DelayTime": 0.0,
+  "Max": 1.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10004,
+  "SoundName": "bgm/bgm_brick",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 1.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10005,
+  "SoundName": "bgm/ambience_brick_forest",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 1.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10010,
+  "SoundName": "ui/uiButton",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10011,
+  "SoundName": "ui/ui_button_unclickable",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10012,
+  "SoundName": "ui/window_open",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10013,
+  "SoundName": "ui/window_close",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10014,
+  "SoundName": "ui/setting_open",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10015,
+  "SoundName": "ui/setting_close",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10016,
+  "SoundName": "ui/ui_main_tag",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10017,
+  "SoundName": "ui/battle_relive",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10018,
+  "SoundName": "ui/collect_draw",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10019,
+  "SoundName": "ui/collection_equip",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10020,
+  "SoundName": "ui/collection_slot_unlock",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10021,
+  "SoundName": "ui/collection_upgrade",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10022,
+  "SoundName": "ui/diamond_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10023,
+  "SoundName": "ui/exp_gain",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10024,
+  "SoundName": "ui/GameOver_failed",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10025,
+  "SoundName": "ui/GameOver_Win",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10026,
+  "SoundName": "ui/item_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10027,
+  "SoundName": "ui/reward_click",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10028,
+  "SoundName": "ui/reward_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 4.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10029,
+  "SoundName": "ui/reward_pop",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10030,
+  "SoundName": "ui/rogue_select",
+  "Volume": 0.6,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10031,
+  "SoundName": "ui/rouge_refresh",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10032,
+  "SoundName": "ui/tower_levelup",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10033,
+  "SoundName": "ui/tower_upgrade_unlock",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 2.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10034,
+  "SoundName": "ui/coin_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10035,
+  "SoundName": "ui/guide_window",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10036,
+  "SoundName": "ui/boss_tip",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10037,
+  "SoundName": "ui/prop_unlock",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10038,
+  "SoundName": "ui/race_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10039,
+  "SoundName": "ui/cube_collision",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10040,
+  "SoundName": "ui/cube_upgrade",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10041,
+  "SoundName": "ui/ad_gold_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10042,
+  "SoundName": "ui/ad_special_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 10043,
+  "SoundName": "ui/tower_equip",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 6.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11001,
+  "SoundName": "battle/enemy_death",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11002,
+  "SoundName": "battle/hero_attack_normal",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11003,
+  "SoundName": "battle/hero_damage",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11004,
+  "SoundName": "battle/hero_death",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11005,
+  "SoundName": "battle/hero_get",
+  "Volume": 0.6,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11006,
+  "SoundName": "battle/hero_corn_fire",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 8.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11007,
+  "SoundName": "battle/hero_futou_fire",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11008,
+  "SoundName": "battle/hero_tanqiu_fire",
+  "Volume": 0.6,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11009,
+  "SoundName": "battle/small_baozha",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11010,
+  "SoundName": "battle/skill_heal",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11011,
+  "SoundName": "battle/skill_jiasu",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11012,
+  "SoundName": "battle/skill_ice",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11013,
+  "SoundName": "battle/fazhang_attack",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11014,
+  "SoundName": "battle/fazhang_baozha",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11015,
+  "SoundName": "battle/quantao_attack",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11016,
+  "SoundName": "battle/zuolun_attack",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11017,
+  "SoundName": "battle/dead_shouqiao_normal",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 8.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11018,
+  "SoundName": "battle/dead_shouqiao_boss",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11019,
+  "SoundName": "battle/start_door_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11020,
+  "SoundName": "battle/door_get",
+  "Volume": 1.0,
+  "DelayTime": 0.0,
+  "Max": 5.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11021,
+  "SoundName": "battle/shouqiao_rifle_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11022,
+  "SoundName": "battle/shouqiao_gatling_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11023,
+  "SoundName": "battle/shouqiao_laser_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11024,
+  "SoundName": "battle/hero_poison_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11025,
+  "SoundName": "battle/hero_poison_hit",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11026,
+  "SoundName": "battle/hero_ice_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11027,
+  "SoundName": "battle/hero_ice_hit",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ },
+ {
+  "ID": 11028,
+  "SoundName": "battle/light_attack",
+  "Volume": 0.4,
+  "DelayTime": 0.0,
+  "Max": 10.0,
+  "ExcludeID": "0"
+ }
+]

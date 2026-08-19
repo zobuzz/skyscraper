@@ -1,0 +1,52 @@
+[
+ {
+  "ID": 1,
+  "Type": "StartBattle",
+  "Desc": "进行<color=green>{0}</color>次战斗"
+ },
+ {
+  "ID": 2,
+  "Type": "BattleVictory",
+  "Desc": "战斗胜利<color=green>{0}</color>次"
+ },
+ {
+  "ID": 3,
+  "Type": "KillMonster",
+  "Desc": "击杀<color=green>{0}</color>个怪物"
+ },
+ {
+  "ID": 4,
+  "Type": "KillBoss",
+  "Desc": "击杀<color=green>{0}</color>个boss"
+ },
+ {
+  "ID": 5,
+  "Type": "DailyShopBuy",
+  "Desc": "每日商店购买<color=green>{0}</color>件商品"
+ },
+ {
+  "ID": 6,
+  "Type": "ShowAds",
+  "Desc": "观看<color=green>{0}</color>次广告"
+ },
+ {
+  "ID": 7,
+  "Type": "SignIn",
+  "Desc": "进行<color=green>{0}</color>次签到"
+ },
+ {
+  "ID": 8,
+  "Type": "BattleMerge",
+  "Desc": "战斗内合成<color=green>{0}</color>次"
+ },
+ {
+  "ID": 9,
+  "Type": "DrawBox",
+  "Desc": "开启<color=green>{0}</color>次商城宝箱"
+ },
+ {
+  "ID": 10,
+  "Type": "HeroLevelUp",
+  "Desc": "升级<color=green>{0}</color>次角色"
+ }
+]

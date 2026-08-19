@@ -1,0 +1,30 @@
+[
+ {
+  "ID": 1001,
+  "Lang": "Test Language"
+ },
+ {
+  "ID": 1002,
+  "Lang": "Mail Title"
+ },
+ {
+  "ID": 1003,
+  "Lang": "Mail Content"
+ },
+ {
+  "ID": 1004,
+  "Lang": "Setting"
+ },
+ {
+  "ID": 1005,
+  "Lang": "Music"
+ },
+ {
+  "ID": 1006,
+  "Lang": "Sound"
+ },
+ {
+  "ID": 1007,
+  "Lang": "Language"
+ }
+]

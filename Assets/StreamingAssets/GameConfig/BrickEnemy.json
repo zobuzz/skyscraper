@@ -1,0 +1,262 @@
+[
+ {
+  "ID": 1,
+  "Model": "monster_1",
+  "Scale": 2.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 2,
+  "Model": "monster_2",
+  "Scale": 2.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 3,
+  "Model": "monster_3",
+  "Scale": 2.0,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 4,
+  "Model": "monster_4",
+  "Scale": 0.8,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 5,
+  "Model": "monster_5",
+  "Scale": 0.8,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 6,
+  "Model": "monster_6",
+  "Scale": 0.8,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 7,
+  "Model": "monster_7",
+  "Scale": 1.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 8,
+  "Model": "monster_8",
+  "Scale": 2.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 9,
+  "Model": "monster_9",
+  "Scale": 0.8,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 10,
+  "Model": "monster_10",
+  "Scale": 0.8,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 11,
+  "Model": "monster_11",
+  "Scale": 1.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 12,
+  "Model": "monster_12",
+  "Scale": 2.0,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 13,
+  "Model": "monster_13",
+  "Scale": 1.0,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 14,
+  "Model": "monster_14",
+  "Scale": 0.85,
+  "IsBoss": false,
+  "MoveY": 5.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 15,
+  "Model": "monster_15",
+  "Scale": 1.0,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 16,
+  "Model": "monster_3",
+  "Scale": 2.5,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 17,
+  "Model": "monster_1",
+  "Scale": 2.5,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 18,
+  "Model": "monster_2",
+  "Scale": 2.5,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 19,
+  "Model": "monster_3",
+  "Scale": 2.5,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 20,
+  "Model": "monster_17",
+  "Scale": 1.25,
+  "IsBoss": false,
+  "MoveY": -1.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 21,
+  "Model": "monster_14",
+  "Scale": 0.85,
+  "IsBoss": false,
+  "MoveY": -1.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 22,
+  "Model": "monster_12",
+  "Scale": 3.0,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ },
+ {
+  "ID": 23,
+  "Model": "monster_16",
+  "Scale": 2.0,
+  "IsBoss": true,
+  "MoveY": 9.5,
+  "Interval": 7.66,
+  "Burst": 4.0,
+  "IsMove": 0
+ },
+ {
+  "ID": 24,
+  "Model": "monster_shark",
+  "Scale": 0.5,
+  "IsBoss": false,
+  "MoveY": 0.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 25,
+  "Model": "monster_bat",
+  "Scale": 1.0,
+  "IsBoss": false,
+  "MoveY": -1.0,
+  "Interval": 1.0,
+  "Burst": 0.5,
+  "IsMove": 1
+ },
+ {
+  "ID": 26,
+  "Model": "monster_octopus_boss",
+  "Scale": 1.0,
+  "IsBoss": true,
+  "MoveY": 0.0,
+  "Interval": 2.0,
+  "Burst": 1.2,
+  "IsMove": 1
+ }
+]

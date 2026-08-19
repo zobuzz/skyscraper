@@ -1,0 +1,107 @@
+[
+ {
+  "ID": 1001,
+  "Lang": 0,
+  "Description": "db加载数据出错"
+ },
+ {
+  "ID": 1002,
+  "Lang": 0,
+  "Description": "未发送登录请求"
+ },
+ {
+  "ID": 1003,
+  "Lang": 0,
+  "Description": "第一个请求必须是login"
+ },
+ {
+  "ID": 1004,
+  "Lang": 0,
+  "Description": "token 验证失败"
+ },
+ {
+  "ID": 10071,
+  "Lang": 0,
+  "Description": "邮件状态错误，无法已读 - 已经是已读或者删除等"
+ },
+ {
+  "ID": 10072,
+  "Lang": 0,
+  "Description": "邮件未找到"
+ },
+ {
+  "ID": 10081,
+  "Lang": 1001,
+  "Description": "邮件状态错误，无法领取 - 已经是领取状态"
+ },
+ {
+  "ID": 10082,
+  "Lang": 1001,
+  "Description": "邮件未找到"
+ },
+ {
+  "ID": 10083,
+  "Lang": 1001,
+  "Description": "邮件没有奖励"
+ },
+ {
+  "ID": 10091,
+  "Lang": 0,
+  "Description": "邮件状态错误，无法删除 - 已经是删除状态"
+ },
+ {
+  "ID": 10092,
+  "Lang": 0,
+  "Description": "邮件未找到"
+ },
+ {
+  "ID": 10031,
+  "Lang": 0,
+  "Description": "英雄已经卖出"
+ },
+ {
+  "ID": 10032,
+  "Lang": 0,
+  "Description": "英雄已经选择"
+ },
+ {
+  "ID": 10033,
+  "Lang": 0,
+  "Description": "操作id错误"
+ },
+ {
+  "ID": 10041,
+  "Lang": 0,
+  "Description": "阶段通关时间不够"
+ },
+ {
+  "ID": 10042,
+  "Lang": 0,
+  "Description": "已经到最后一个阶段"
+ },
+ {
+  "ID": 9999,
+  "Lang": 0,
+  "Description": "未实现功能"
+ },
+ {
+  "ID": 9998,
+  "Lang": 0,
+  "Description": "参数错误"
+ },
+ {
+  "ID": 9997,
+  "Lang": 0,
+  "Description": "配置表错误"
+ },
+ {
+  "ID": 9996,
+  "Lang": 0,
+  "Description": "背包已满"
+ },
+ {
+  "ID": 9995,
+  "Lang": 0,
+  "Description": "道具不足"
+ }
+]

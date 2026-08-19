@@ -1,0 +1,27 @@
+[
+ {
+  "ID": 1,
+  "UnLockType": 1,
+  "Cost": 0
+ },
+ {
+  "ID": 2,
+  "UnLockType": 2,
+  "Cost": 1
+ },
+ {
+  "ID": 3,
+  "UnLockType": 3,
+  "Cost": 200
+ },
+ {
+  "ID": 4,
+  "UnLockType": 2,
+  "Cost": 5
+ },
+ {
+  "ID": 5,
+  "UnLockType": 3,
+  "Cost": 500
+ }
+]

@@ -1,0 +1,1667 @@
+[
+ {
+  "ID": 1,
+  "Type": 1,
+  "Name": "金币",
+  "Quality": 1,
+  "Icon": "UI_icon_gold",
+  "MaxCount": -1,
+  "Description": "金币"
+ },
+ {
+  "ID": 2,
+  "Type": 1,
+  "Name": "钻石",
+  "Quality": 1,
+  "Icon": "UI_icon_zanshi",
+  "MaxCount": -1,
+  "Description": "钻石"
+ },
+ {
+  "ID": 3,
+  "Type": 1,
+  "Name": "狗粮",
+  "Quality": 1,
+  "Icon": "UI_icon_bean",
+  "MaxCount": -1,
+  "Description": "狗粮"
+ },
+ {
+  "ID": 4,
+  "Type": 1,
+  "Name": "银钥匙",
+  "Quality": 2,
+  "Icon": "UI_sc_key1",
+  "MaxCount": -1,
+  "Description": "银钥匙"
+ },
+ {
+  "ID": 5,
+  "Type": 1,
+  "Name": "金钥匙",
+  "Quality": 3,
+  "Icon": "UI_sc_key2",
+  "MaxCount": -1,
+  "Description": "金钥匙"
+ },
+ {
+  "ID": 11,
+  "Type": 1,
+  "Name": "速射",
+  "Quality": 1,
+  "Icon": "BT_1",
+  "MaxCount": -1,
+  "Description": "炮塔的攻击冷却减少90%，持续4秒"
+ },
+ {
+  "ID": 12,
+  "Type": 1,
+  "Name": "召唤",
+  "Quality": 1,
+  "Icon": "BT_2",
+  "MaxCount": -1,
+  "Description": "随机获得三个基础炮塔"
+ },
+ {
+  "ID": 13,
+  "Type": 1,
+  "Name": "恢复",
+  "Quality": 1,
+  "Icon": "BT_3",
+  "MaxCount": -1,
+  "Description": "将所有炮塔恢复到满血状态"
+ },
+ {
+  "ID": 14,
+  "Type": 1,
+  "Name": "冻结",
+  "Quality": 1,
+  "Icon": "BT_4",
+  "MaxCount": -1,
+  "Description": "冻结所有敌人的行动"
+ },
+ {
+  "ID": 15,
+  "Type": 1,
+  "Name": "锤子",
+  "Quality": 1,
+  "Icon": "UI_icon_chui",
+  "MaxCount": -1,
+  "Description": "摧毁一个方块"
+ },
+ {
+  "ID": 21,
+  "Type": 1,
+  "Name": "伤害提升",
+  "Quality": 3,
+  "Icon": "ZY_1",
+  "MaxCount": -1,
+  "Description": "获得一个伤害提升装置"
+ },
+ {
+  "ID": 22,
+  "Type": 1,
+  "Name": "经验x2",
+  "Quality": 3,
+  "Icon": "ZY_2",
+  "MaxCount": -1,
+  "Description": "击杀获得双倍经验"
+ },
+ {
+  "ID": 31,
+  "Type": 1,
+  "Name": "武器图纸",
+  "Quality": 1,
+  "Icon": "ZBSP_1",
+  "MaxCount": -1,
+  "Description": "武器图纸"
+ },
+ {
+  "ID": 32,
+  "Type": 1,
+  "Name": "头部图纸",
+  "Quality": 1,
+  "Icon": "ZBSP_2",
+  "MaxCount": -1,
+  "Description": "头部图纸"
+ },
+ {
+  "ID": 33,
+  "Type": 1,
+  "Name": "衣服图纸",
+  "Quality": 1,
+  "Icon": "ZBSP_3",
+  "MaxCount": -1,
+  "Description": "衣服图纸"
+ },
+ {
+  "ID": 34,
+  "Type": 1,
+  "Name": "饰品图纸",
+  "Quality": 1,
+  "Icon": "ZBSP_4",
+  "MaxCount": -1,
+  "Description": "饰品图纸"
+ },
+ {
+  "ID": 35,
+  "Type": 4,
+  "Name": "随机装备图纸",
+  "Quality": 1,
+  "Icon": "ZBSP_5",
+  "MaxCount": -1,
+  "Description": "饰品图纸"
+ },
+ {
+  "ID": 101,
+  "Type": 4,
+  "Name": "白色装备宝箱",
+  "Quality": -1,
+  "Icon": "ZB_13",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 102,
+  "Type": 4,
+  "Name": "绿色装备宝箱",
+  "Quality": 0,
+  "Icon": "ZB_14",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 103,
+  "Type": 4,
+  "Name": "蓝色装备宝箱",
+  "Quality": 1,
+  "Icon": "ZB_15",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 104,
+  "Type": 4,
+  "Name": "紫色装备宝箱",
+  "Quality": 2,
+  "Icon": "ZB_16",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 105,
+  "Type": 4,
+  "Name": "小宝箱",
+  "Quality": 1,
+  "Icon": "BT_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 106,
+  "Type": 4,
+  "Name": "大宝箱",
+  "Quality": 2,
+  "Icon": "BT_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 107,
+  "Type": 4,
+  "Name": "随机蓝色角色",
+  "Quality": 1,
+  "Icon": "UI_dj_fragment1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 108,
+  "Type": 4,
+  "Name": "随机紫色角色",
+  "Quality": 2,
+  "Icon": "UI_dj_fragment2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 109,
+  "Type": 4,
+  "Name": "随机橙色角色",
+  "Quality": 3,
+  "Icon": "UI_dj_fragment3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 999,
+  "Type": 4,
+  "Name": "全部装备",
+  "Quality": 4,
+  "Icon": "BT_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1001,
+  "Type": 2,
+  "Name": "长矛",
+  "Quality": 1,
+  "Icon": "SP_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1002,
+  "Type": 2,
+  "Name": "弹球",
+  "Quality": 1,
+  "Icon": "SP_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1003,
+  "Type": 2,
+  "Name": "滚石",
+  "Quality": 1,
+  "Icon": "SP_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1004,
+  "Type": 2,
+  "Name": "地雷",
+  "Quality": 2,
+  "Icon": "SP_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1005,
+  "Type": 2,
+  "Name": "玉米",
+  "Quality": 2,
+  "Icon": "SP_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1006,
+  "Type": 2,
+  "Name": "喷火器",
+  "Quality": 2,
+  "Icon": "SP_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1007,
+  "Type": 2,
+  "Name": "熔岩",
+  "Quality": 3,
+  "Icon": "SP_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1008,
+  "Type": 2,
+  "Name": "斧子",
+  "Quality": 3,
+  "Icon": "SP_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1009,
+  "Type": 2,
+  "Name": "弓箭手",
+  "Quality": 3,
+  "Icon": "SP_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 1010,
+  "Type": 2,
+  "Name": "镭射眼",
+  "Quality": 3,
+  "Icon": "SP_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 2001,
+  "Type": 3,
+  "Name": "幽灵仔",
+  "Quality": 0,
+  "Icon": "CW_1",
+  "MaxCount": -1,
+  "Description": "半透明的小伙伴，悄无声息地跟在身后。"
+ },
+ {
+  "ID": 2002,
+  "Type": 3,
+  "Name": "蘑菇头",
+  "Quality": 0,
+  "Icon": "CW_2",
+  "MaxCount": -1,
+  "Description": "顶着蘑菇的憨厚小家伙，总是慢吞吞的样子。"
+ },
+ {
+  "ID": 2003,
+  "Type": 3,
+  "Name": "小黄",
+  "Quality": 0,
+  "Icon": "CW_3",
+  "MaxCount": -1,
+  "Description": "圆滚滚的黄色小团子，看起来总是很开心。"
+ },
+ {
+  "ID": 2004,
+  "Type": 3,
+  "Name": "呱呱",
+  "Quality": 0,
+  "Icon": "CW_4",
+  "MaxCount": -1,
+  "Description": "活蹦乱跳的小青蛙。"
+ },
+ {
+  "ID": 2005,
+  "Type": 3,
+  "Name": "蛋仔",
+  "Quality": 1,
+  "Icon": "CW_5",
+  "MaxCount": -1,
+  "Description": "圆鼓鼓的外壳，藏着惊喜的力量"
+ },
+ {
+  "ID": 2006,
+  "Type": 3,
+  "Name": "胖豚",
+  "Quality": 0,
+  "Icon": "CW_6",
+  "MaxCount": -1,
+  "Description": "憨厚的刺豚伙伴，生气的时候喜欢鼓起肚子。"
+ },
+ {
+  "ID": 2007,
+  "Type": 3,
+  "Name": "小蜗",
+  "Quality": 1,
+  "Icon": "CW_7",
+  "MaxCount": -1,
+  "Description": "背着小壳子，动作慢悠悠。"
+ },
+ {
+  "ID": 2008,
+  "Type": 3,
+  "Name": "小黄蜂",
+  "Quality": 0,
+  "Icon": "CW_8",
+  "MaxCount": -1,
+  "Description": "嗡嗡飞舞的小家伙，精力充沛。"
+ },
+ {
+  "ID": 2009,
+  "Type": 3,
+  "Name": "鸡仔",
+  "Quality": 0,
+  "Icon": "CW_9",
+  "MaxCount": -1,
+  "Description": "扑腾着小翅膀，总想学会飞。"
+ },
+ {
+  "ID": 2010,
+  "Type": 3,
+  "Name": "呆鸭",
+  "Quality": 1,
+  "Icon": "CW_10",
+  "MaxCount": -1,
+  "Description": "动作慢半拍，却意外可靠。"
+ },
+ {
+  "ID": 2011,
+  "Type": 3,
+  "Name": "菇草",
+  "Quality": 1,
+  "Icon": "CW_11",
+  "MaxCount": -1,
+  "Description": "奇怪的菌草，头上顶着嫩绿的小芽。"
+ },
+ {
+  "ID": 2012,
+  "Type": 3,
+  "Name": "变形怪",
+  "Quality": 1,
+  "Icon": "CW_12",
+  "MaxCount": -1,
+  "Description": "样子总在变换，没人能看清它的真面目。"
+ },
+ {
+  "ID": 2013,
+  "Type": 3,
+  "Name": "南瓜头",
+  "Quality": 1,
+  "Icon": "CW_13",
+  "MaxCount": -1,
+  "Description": "带着笑脸的南瓜灯，夜里会自己发光。"
+ },
+ {
+  "ID": 2014,
+  "Type": 3,
+  "Name": "穿山甲",
+  "Quality": 1,
+  "Icon": "CW_14",
+  "MaxCount": -1,
+  "Description": "身体覆盖坚硬鳞甲，喜欢蜷成一团。"
+ },
+ {
+  "ID": 2015,
+  "Type": 3,
+  "Name": "小鱼仔",
+  "Quality": 0,
+  "Icon": "CW_15",
+  "MaxCount": -1,
+  "Description": "灵巧的小鱼，游动时泛起波光。"
+ },
+ {
+  "ID": 2016,
+  "Type": 3,
+  "Name": "大嘴花",
+  "Quality": 1,
+  "Icon": "CW_16",
+  "MaxCount": -1,
+  "Description": "长着巨口的植物，好像能吞下一切。"
+ },
+ {
+  "ID": 2101,
+  "Type": 3,
+  "Name": "小机机",
+  "Quality": 2,
+  "Icon": "CW_17",
+  "MaxCount": -1,
+  "Description": "用零件拼装的小机偶，总是咔嗒作响。"
+ },
+ {
+  "ID": 2102,
+  "Type": 3,
+  "Name": "大蜗霸",
+  "Quality": 2,
+  "Icon": "CW_18",
+  "MaxCount": -1,
+  "Description": "比小蜗牛大得多，长长的脖子仿佛一直在寻找猎物。"
+ },
+ {
+  "ID": 2103,
+  "Type": 3,
+  "Name": "蟹蟹",
+  "Quality": 2,
+  "Icon": "CW_19",
+  "MaxCount": -1,
+  "Description": "横行霸道的硬壳螃蟹，钳子又大又有力。"
+ },
+ {
+  "ID": 2104,
+  "Type": 3,
+  "Name": "灰猫",
+  "Quality": 2,
+  "Icon": "CW_20",
+  "MaxCount": -1,
+  "Description": "慵懒打盹，却总是很灵巧。"
+ },
+ {
+  "ID": 2105,
+  "Type": 3,
+  "Name": "虫虫",
+  "Quality": 2,
+  "Icon": "CW_21",
+  "MaxCount": -1,
+  "Description": "小小的虫子，身体软绵绵地扭来扭去。"
+ },
+ {
+  "ID": 2106,
+  "Type": 3,
+  "Name": "大黄",
+  "Quality": 2,
+  "Icon": "CW_22",
+  "MaxCount": -1,
+  "Description": "全身金黄，气势十足的伙伴。"
+ },
+ {
+  "ID": 2107,
+  "Type": 3,
+  "Name": "小火龙",
+  "Quality": 2,
+  "Icon": "CW_23",
+  "MaxCount": -1,
+  "Description": "小巧的龙，身上冒着微弱的火焰。"
+ },
+ {
+  "ID": 2108,
+  "Type": 3,
+  "Name": "电力机兵",
+  "Quality": 2,
+  "Icon": "CW_24",
+  "MaxCount": -1,
+  "Description": "布满电线与齿轮的机械体，闪着蓝光。"
+ },
+ {
+  "ID": 2201,
+  "Type": 3,
+  "Name": "雷鼠",
+  "Quality": 3,
+  "Icon": "CW_25",
+  "MaxCount": -1,
+  "Description": "机灵的小伙伴，动作飞快。"
+ },
+ {
+  "ID": 2202,
+  "Type": 3,
+  "Name": "皮卡猫",
+  "Quality": 3,
+  "Icon": "CW_26",
+  "MaxCount": -1,
+  "Description": "毛发竖立的猫咪，眼镜被自己的电光给弄伤了。"
+ },
+ {
+  "ID": 2203,
+  "Type": 3,
+  "Name": "金甲王",
+  "Quality": 3,
+  "Icon": "CW_27",
+  "MaxCount": -1,
+  "Description": "全身闪耀金光，甲壳坚硬无比。"
+ },
+ {
+  "ID": 2204,
+  "Type": 3,
+  "Name": "大黄蜂",
+  "Quality": 3,
+  "Icon": "CW_28",
+  "MaxCount": -1,
+  "Description": "威风凛凛的蜂群首领，振翅声低沉有力。"
+ },
+ {
+  "ID": 2301,
+  "Type": 3,
+  "Name": "巨呱",
+  "Quality": 3,
+  "Icon": "CW_29",
+  "MaxCount": -1,
+  "Description": "独来独往的青蛙王子，靠声音就能震慑敌人。"
+ },
+ {
+  "ID": 2302,
+  "Type": 3,
+  "Name": "企鹅王",
+  "Quality": 3,
+  "Icon": "CW_30",
+  "MaxCount": -1,
+  "Description": "冰雪之地的主宰，外表威严高贵。"
+ },
+ {
+  "ID": 3001,
+  "Type": 6,
+  "Name": "幽灵仔",
+  "Quality": 0,
+  "Icon": "CW_1",
+  "MaxCount": -1,
+  "Description": "半透明的小伙伴，悄无声息地跟在身后。"
+ },
+ {
+  "ID": 3002,
+  "Type": 6,
+  "Name": "蘑菇头",
+  "Quality": 0,
+  "Icon": "CW_2",
+  "MaxCount": -1,
+  "Description": "顶着蘑菇的憨厚小家伙，总是慢吞吞的样子。"
+ },
+ {
+  "ID": 3003,
+  "Type": 6,
+  "Name": "小黄",
+  "Quality": 0,
+  "Icon": "CW_3",
+  "MaxCount": -1,
+  "Description": "圆滚滚的黄色小团子，看起来总是很开心。"
+ },
+ {
+  "ID": 3004,
+  "Type": 6,
+  "Name": "呱呱",
+  "Quality": 0,
+  "Icon": "CW_4",
+  "MaxCount": -1,
+  "Description": "活蹦乱跳的小青蛙。"
+ },
+ {
+  "ID": 3005,
+  "Type": 6,
+  "Name": "蛋仔",
+  "Quality": 1,
+  "Icon": "CW_5",
+  "MaxCount": -1,
+  "Description": "圆鼓鼓的外壳，藏着惊喜的力量"
+ },
+ {
+  "ID": 3006,
+  "Type": 6,
+  "Name": "胖豚",
+  "Quality": 0,
+  "Icon": "CW_6",
+  "MaxCount": -1,
+  "Description": "憨厚的刺豚伙伴，生气的时候喜欢鼓起肚子。"
+ },
+ {
+  "ID": 3007,
+  "Type": 6,
+  "Name": "小蜗",
+  "Quality": 1,
+  "Icon": "CW_7",
+  "MaxCount": -1,
+  "Description": "背着小壳子，动作慢悠悠。"
+ },
+ {
+  "ID": 3008,
+  "Type": 6,
+  "Name": "小黄蜂",
+  "Quality": 0,
+  "Icon": "CW_8",
+  "MaxCount": -1,
+  "Description": "嗡嗡飞舞的小家伙，精力充沛。"
+ },
+ {
+  "ID": 3009,
+  "Type": 6,
+  "Name": "鸡仔",
+  "Quality": 0,
+  "Icon": "CW_9",
+  "MaxCount": -1,
+  "Description": "扑腾着小翅膀，总想学会飞。"
+ },
+ {
+  "ID": 3010,
+  "Type": 6,
+  "Name": "呆鸭",
+  "Quality": 1,
+  "Icon": "CW_10",
+  "MaxCount": -1,
+  "Description": "动作慢半拍，却意外可靠。"
+ },
+ {
+  "ID": 3011,
+  "Type": 6,
+  "Name": "菇草",
+  "Quality": 1,
+  "Icon": "CW_11",
+  "MaxCount": -1,
+  "Description": "奇怪的菌草，头上顶着嫩绿的小芽。"
+ },
+ {
+  "ID": 3012,
+  "Type": 6,
+  "Name": "变形怪",
+  "Quality": 1,
+  "Icon": "CW_12",
+  "MaxCount": -1,
+  "Description": "样子总在变换，没人能看清它的真面目。"
+ },
+ {
+  "ID": 3013,
+  "Type": 6,
+  "Name": "南瓜头",
+  "Quality": 1,
+  "Icon": "CW_13",
+  "MaxCount": -1,
+  "Description": "带着笑脸的南瓜灯，夜里会自己发光。"
+ },
+ {
+  "ID": 3014,
+  "Type": 6,
+  "Name": "穿山甲",
+  "Quality": 1,
+  "Icon": "CW_14",
+  "MaxCount": -1,
+  "Description": "身体覆盖坚硬鳞甲，喜欢蜷成一团。"
+ },
+ {
+  "ID": 3015,
+  "Type": 6,
+  "Name": "小鱼仔",
+  "Quality": 0,
+  "Icon": "CW_15",
+  "MaxCount": -1,
+  "Description": "灵巧的小鱼，游动时泛起波光。"
+ },
+ {
+  "ID": 3016,
+  "Type": 6,
+  "Name": "大嘴花",
+  "Quality": 1,
+  "Icon": "CW_16",
+  "MaxCount": -1,
+  "Description": "长着巨口的植物，好像能吞下一切。"
+ },
+ {
+  "ID": 3101,
+  "Type": 6,
+  "Name": "小机机",
+  "Quality": 2,
+  "Icon": "CW_17",
+  "MaxCount": -1,
+  "Description": "用零件拼装的小机偶，总是咔嗒作响。"
+ },
+ {
+  "ID": 3102,
+  "Type": 6,
+  "Name": "大蜗霸",
+  "Quality": 2,
+  "Icon": "CW_18",
+  "MaxCount": -1,
+  "Description": "比小蜗牛大得多，长长的脖子仿佛一直在寻找猎物。"
+ },
+ {
+  "ID": 3103,
+  "Type": 6,
+  "Name": "蟹蟹",
+  "Quality": 2,
+  "Icon": "CW_19",
+  "MaxCount": -1,
+  "Description": "横行霸道的硬壳螃蟹，钳子又大又有力。"
+ },
+ {
+  "ID": 3104,
+  "Type": 6,
+  "Name": "灰猫",
+  "Quality": 2,
+  "Icon": "CW_20",
+  "MaxCount": -1,
+  "Description": "慵懒打盹，却总是很灵巧。"
+ },
+ {
+  "ID": 3105,
+  "Type": 6,
+  "Name": "虫虫",
+  "Quality": 2,
+  "Icon": "CW_21",
+  "MaxCount": -1,
+  "Description": "小小的虫子，身体软绵绵地扭来扭去。"
+ },
+ {
+  "ID": 3106,
+  "Type": 6,
+  "Name": "大黄",
+  "Quality": 2,
+  "Icon": "CW_22",
+  "MaxCount": -1,
+  "Description": "全身金黄，气势十足的伙伴。"
+ },
+ {
+  "ID": 3107,
+  "Type": 6,
+  "Name": "小火龙",
+  "Quality": 2,
+  "Icon": "CW_23",
+  "MaxCount": -1,
+  "Description": "小巧的龙，身上冒着微弱的火焰。"
+ },
+ {
+  "ID": 3108,
+  "Type": 6,
+  "Name": "电力机兵",
+  "Quality": 2,
+  "Icon": "CW_24",
+  "MaxCount": -1,
+  "Description": "布满电线与齿轮的机械体，闪着蓝光。"
+ },
+ {
+  "ID": 3201,
+  "Type": 6,
+  "Name": "雷鼠",
+  "Quality": 3,
+  "Icon": "CW_25",
+  "MaxCount": -1,
+  "Description": "机灵的小伙伴，动作飞快。"
+ },
+ {
+  "ID": 3202,
+  "Type": 6,
+  "Name": "皮卡猫",
+  "Quality": 3,
+  "Icon": "CW_26",
+  "MaxCount": -1,
+  "Description": "毛发竖立的猫咪，眼镜被自己的电光给弄伤了。"
+ },
+ {
+  "ID": 3203,
+  "Type": 6,
+  "Name": "金甲王",
+  "Quality": 3,
+  "Icon": "CW_27",
+  "MaxCount": -1,
+  "Description": "全身闪耀金光，甲壳坚硬无比。"
+ },
+ {
+  "ID": 3204,
+  "Type": 6,
+  "Name": "大黄蜂",
+  "Quality": 3,
+  "Icon": "CW_28",
+  "MaxCount": -1,
+  "Description": "威风凛凛的蜂群首领，振翅声低沉有力。"
+ },
+ {
+  "ID": 3301,
+  "Type": 6,
+  "Name": "巨呱",
+  "Quality": 3,
+  "Icon": "CW_29",
+  "MaxCount": -1,
+  "Description": "独来独往的青蛙王子，靠声音就能震慑敌人。"
+ },
+ {
+  "ID": 3302,
+  "Type": 6,
+  "Name": "企鹅王",
+  "Quality": 3,
+  "Icon": "CW_30",
+  "MaxCount": -1,
+  "Description": "冰雪之地的主宰，外表威严高贵。"
+ },
+ {
+  "ID": 4001,
+  "Type": 7,
+  "Name": "爆爆法师",
+  "Quality": 1,
+  "Icon": "SP_1",
+  "MaxCount": -1,
+  "Description": "发射炸弹，对大片敌人造成伤害"
+ },
+ {
+  "ID": 4002,
+  "Type": 7,
+  "Name": "熔岩",
+  "Quality": 1,
+  "Icon": "SP_2",
+  "MaxCount": -1,
+  "Description": "发射熔岩炸弹，命中后在地面残留火焰区域"
+ },
+ {
+  "ID": 4003,
+  "Type": 7,
+  "Name": "投石手",
+  "Quality": 1,
+  "Icon": "SP_3",
+  "MaxCount": -1,
+  "Description": "投掷巨石，对命中的目标造成伤害"
+ },
+ {
+  "ID": 4004,
+  "Type": 7,
+  "Name": "狂斧",
+  "Quality": 2,
+  "Icon": "SP_4",
+  "MaxCount": -1,
+  "Description": "投掷可以穿透敌人的强力巨斧"
+ },
+ {
+  "ID": 4005,
+  "Type": 7,
+  "Name": "修理工",
+  "Quality": 2,
+  "Icon": "SP_5",
+  "MaxCount": -1,
+  "Description": "随身携带工具箱，能快速修复基地"
+ },
+ {
+  "ID": 4006,
+  "Type": 7,
+  "Name": "投矛手",
+  "Quality": 1,
+  "Icon": "SP_6",
+  "MaxCount": -1,
+  "Description": "投掷长矛，对直线敌人造成伤害"
+ },
+ {
+  "ID": 4007,
+  "Type": 7,
+  "Name": "矿工",
+  "Quality": 1,
+  "Icon": "SP_7",
+  "MaxCount": -1,
+  "Description": "财富搬运工，能够持续产出额外的金币"
+ },
+ {
+  "ID": 4008,
+  "Type": 7,
+  "Name": "城墙",
+  "Quality": 1,
+  "Icon": "SP_8",
+  "MaxCount": -1,
+  "Description": "弱小的史莱姆，可以提供少量血量"
+ },
+ {
+  "ID": 4009,
+  "Type": 7,
+  "Name": "毒液",
+  "Quality": 2,
+  "Icon": "SP_9",
+  "MaxCount": -1,
+  "Description": "投掷实验瓶，命中后附加持续中毒状态"
+ },
+ {
+  "ID": 4010,
+  "Type": 7,
+  "Name": "忍者",
+  "Quality": 2,
+  "Icon": "SP_10",
+  "MaxCount": -1,
+  "Description": "同时发射两枚飞镖攻击"
+ },
+ {
+  "ID": 4011,
+  "Type": 7,
+  "Name": "拳击手",
+  "Quality": 2,
+  "Icon": "SP_11",
+  "MaxCount": -1,
+  "Description": "发射蓄力拳套，造成范围伤害"
+ },
+ {
+  "ID": 4012,
+  "Type": 7,
+  "Name": "冻冻投手",
+  "Quality": 2,
+  "Icon": "SP_12",
+  "MaxCount": -1,
+  "Description": "投掷冰块，范围伤害并减速"
+ },
+ {
+  "ID": 4013,
+  "Type": 7,
+  "Name": "镭射眼",
+  "Quality": 3,
+  "Icon": "SP_13",
+  "MaxCount": -1,
+  "Description": "发射聚焦激光，攻击并重伤敌人"
+ },
+ {
+  "ID": 4014,
+  "Type": 7,
+  "Name": "神射手",
+  "Quality": 2,
+  "Icon": "SP_14",
+  "MaxCount": -1,
+  "Description": "王国的传奇弓箭手，发射连环箭矢"
+ },
+ {
+  "ID": 4015,
+  "Type": 7,
+  "Name": "雷神",
+  "Quality": 3,
+  "Icon": "SP_15",
+  "MaxCount": -1,
+  "Description": "召唤闪电，造成超大范围的闪电打击"
+ },
+ {
+  "ID": 4016,
+  "Type": 7,
+  "Name": "行者",
+  "Quality": 3,
+  "Icon": "SP_16",
+  "MaxCount": -1,
+  "Description": "挥舞金箍棒，对小范围内的敌人造成多段伤害"
+ },
+ {
+  "ID": 10011,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": -1,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10012,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": 0,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10013,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": 1,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10014,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": 2,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10015,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": 3,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10016,
+  "Type": 5,
+  "Name": "星辉法杖",
+  "Quality": 4,
+  "Icon": "ZB_1",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10021,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": -1,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10022,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": 0,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10023,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": 1,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10024,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": 2,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10025,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": 3,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10026,
+  "Type": 5,
+  "Name": "搏击拳套",
+  "Quality": 4,
+  "Icon": "ZB_5",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10031,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": -1,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10032,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": 0,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10033,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": 1,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10034,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": 2,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10035,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": 3,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 10036,
+  "Type": 5,
+  "Name": "镭射左轮",
+  "Quality": 4,
+  "Icon": "ZB_9",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11011,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": -1,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11012,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": 0,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11013,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": 1,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11014,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": 2,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11015,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": 3,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11016,
+  "Type": 5,
+  "Name": "魔法帽",
+  "Quality": 4,
+  "Icon": "ZB_2",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11021,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": -1,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11022,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": 0,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11023,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": 1,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11024,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": 2,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11025,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": 3,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11026,
+  "Type": 5,
+  "Name": "防护头盔",
+  "Quality": 4,
+  "Icon": "ZB_6",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11031,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": -1,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11032,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": 0,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11033,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": 1,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11034,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": 2,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11035,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": 3,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 11036,
+  "Type": 5,
+  "Name": "护目镜",
+  "Quality": 4,
+  "Icon": "ZB_10",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12011,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": -1,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12012,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": 0,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12013,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": 1,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12014,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": 2,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12015,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": 3,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12016,
+  "Type": 5,
+  "Name": "魔法斗篷",
+  "Quality": 4,
+  "Icon": "ZB_3",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12021,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": -1,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12022,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": 0,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12023,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": 1,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12024,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": 2,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12025,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": 3,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12026,
+  "Type": 5,
+  "Name": "拳击短裤",
+  "Quality": 4,
+  "Icon": "ZB_7",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12031,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": -1,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12032,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": 0,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12033,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": 1,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12034,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": 2,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12035,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": 3,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 12036,
+  "Type": 5,
+  "Name": "战术背心",
+  "Quality": 4,
+  "Icon": "ZB_11",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13011,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": -1,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13012,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": 0,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13013,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": 1,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13014,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": 2,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13015,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": 3,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13016,
+  "Type": 5,
+  "Name": "基础魔典",
+  "Quality": 4,
+  "Icon": "ZB_4",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13021,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": -1,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13022,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": 0,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13023,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": 1,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13024,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": 2,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13025,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": 3,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13026,
+  "Type": 5,
+  "Name": "冠军戒指",
+  "Quality": 4,
+  "Icon": "ZB_8",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13031,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": -1,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13032,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": 0,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13033,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": 1,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13034,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": 2,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13035,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": 3,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ },
+ {
+  "ID": 13036,
+  "Type": 5,
+  "Name": "特工铭牌",
+  "Quality": 4,
+  "Icon": "ZB_12",
+  "MaxCount": -1,
+  "Description": ""
+ }
+]

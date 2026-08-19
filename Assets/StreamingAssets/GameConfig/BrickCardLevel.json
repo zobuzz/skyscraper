@@ -1,0 +1,142 @@
+[
+ {
+  "ID": 1,
+  "Cost0": 1,
+  "Cost1": 1,
+  "Cost2": 1,
+  "Cost3": 1
+ },
+ {
+  "ID": 2,
+  "Cost0": 2,
+  "Cost1": 2,
+  "Cost2": 2,
+  "Cost3": 2
+ },
+ {
+  "ID": 3,
+  "Cost0": 2,
+  "Cost1": 2,
+  "Cost2": 2,
+  "Cost3": 2
+ },
+ {
+  "ID": 4,
+  "Cost0": 3,
+  "Cost1": 3,
+  "Cost2": 3,
+  "Cost3": 3
+ },
+ {
+  "ID": 5,
+  "Cost0": 3,
+  "Cost1": 3,
+  "Cost2": 3,
+  "Cost3": 3
+ },
+ {
+  "ID": 6,
+  "Cost0": 4,
+  "Cost1": 4,
+  "Cost2": 4,
+  "Cost3": 4
+ },
+ {
+  "ID": 7,
+  "Cost0": 4,
+  "Cost1": 4,
+  "Cost2": 4,
+  "Cost3": 4
+ },
+ {
+  "ID": 8,
+  "Cost0": 5,
+  "Cost1": 5,
+  "Cost2": 5,
+  "Cost3": 5
+ },
+ {
+  "ID": 9,
+  "Cost0": 5,
+  "Cost1": 5,
+  "Cost2": 5,
+  "Cost3": 5
+ },
+ {
+  "ID": 10,
+  "Cost0": 6,
+  "Cost1": 6,
+  "Cost2": 6,
+  "Cost3": 6
+ },
+ {
+  "ID": 11,
+  "Cost0": 6,
+  "Cost1": 6,
+  "Cost2": 6,
+  "Cost3": 6
+ },
+ {
+  "ID": 12,
+  "Cost0": 7,
+  "Cost1": 7,
+  "Cost2": 7,
+  "Cost3": 7
+ },
+ {
+  "ID": 13,
+  "Cost0": 7,
+  "Cost1": 7,
+  "Cost2": 7,
+  "Cost3": 7
+ },
+ {
+  "ID": 14,
+  "Cost0": 8,
+  "Cost1": 8,
+  "Cost2": 8,
+  "Cost3": 8
+ },
+ {
+  "ID": 15,
+  "Cost0": 8,
+  "Cost1": 8,
+  "Cost2": 8,
+  "Cost3": 8
+ },
+ {
+  "ID": 16,
+  "Cost0": 9,
+  "Cost1": 9,
+  "Cost2": 9,
+  "Cost3": 9
+ },
+ {
+  "ID": 17,
+  "Cost0": 9,
+  "Cost1": 9,
+  "Cost2": 9,
+  "Cost3": 9
+ },
+ {
+  "ID": 18,
+  "Cost0": 10,
+  "Cost1": 10,
+  "Cost2": 10,
+  "Cost3": 10
+ },
+ {
+  "ID": 19,
+  "Cost0": 10,
+  "Cost1": 10,
+  "Cost2": 10,
+  "Cost3": 10
+ },
+ {
+  "ID": 20,
+  "Cost0": 11,
+  "Cost1": 11,
+  "Cost2": 11,
+  "Cost3": 11
+ }
+]

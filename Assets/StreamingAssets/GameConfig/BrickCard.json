@@ -1,0 +1,302 @@
+[
+ {
+  "ID": 3001,
+  "Name": "幽灵仔",
+  "Desc": "半透明的小伙伴，悄无声息地跟在身后。",
+  "Quality": 0,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickInitCoin,5,5"
+ },
+ {
+  "ID": 3002,
+  "Name": "蘑菇头",
+  "Desc": "顶着蘑菇的憨厚小家伙，总是慢吞吞的样子。",
+  "Quality": 0,
+  "Weight": 10,
+  "Corner": "corner_1",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.03,0.03"
+ },
+ {
+  "ID": 3003,
+  "Name": "小黄",
+  "Desc": "圆滚滚的黄色小团子，看起来总是很开心。",
+  "Quality": 0,
+  "Weight": 10,
+  "Corner": "corner_6",
+  "AdFragNum": 1,
+  "Attr": "HpRate,0.03,0.03"
+ },
+ {
+  "ID": 3004,
+  "Name": "呱呱",
+  "Desc": "活蹦乱跳的小青蛙。",
+  "Quality": 0,
+  "Weight": 10,
+  "Corner": "corner_4",
+  "AdFragNum": 1,
+  "Attr": "CriticalDamage,0.03,0.03"
+ },
+ {
+  "ID": 3006,
+  "Name": "胖豚",
+  "Desc": "憨厚的刺豚伙伴，生气的时候喜欢鼓起肚子。",
+  "Quality": 0,
+  "Weight": 10,
+  "Corner": "corner_1|corner_6",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.02,0.02|HpRate,0.02,0.02"
+ },
+ {
+  "ID": 3008,
+  "Name": "小黄蜂",
+  "Desc": "嗡嗡飞舞的小家伙，精力充沛。",
+  "Quality": 0,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickWaveCoin,3,3"
+ },
+ {
+  "ID": 3009,
+  "Name": "鸡仔",
+  "Desc": "扑腾着小翅膀，总想学会飞。",
+  "Quality": 0,
+  "Weight": 5,
+  "Corner": "corner_3",
+  "AdFragNum": 1,
+  "Attr": "CriticalRate,0.01,0.01"
+ },
+ {
+  "ID": 3015,
+  "Name": "小鱼仔",
+  "Desc": "灵巧的小鱼，游动时泛起波光。",
+  "Quality": 0,
+  "Weight": 5,
+  "Corner": "corner_2",
+  "AdFragNum": 1,
+  "Attr": "AttackSpeedRate,0.02,0.02"
+ },
+ {
+  "ID": 3010,
+  "Name": "呆鸭",
+  "Desc": "动作慢半拍，却意外可靠。",
+  "Quality": 1,
+  "Weight": 10,
+  "Corner": "corner_2|corner_7",
+  "AdFragNum": 1,
+  "Attr": "AttackSpeedRate,0.02,0.02|BrickWaveCoin,3,3"
+ },
+ {
+  "ID": 3005,
+  "Name": "蛋仔",
+  "Desc": "圆鼓鼓的外壳，藏着惊喜的力量",
+  "Quality": 1,
+  "Weight": 10,
+  "Corner": "corner_4",
+  "AdFragNum": 1,
+  "Attr": "CriticalDamage,0.15,0.15"
+ },
+ {
+  "ID": 3011,
+  "Name": "菇草",
+  "Desc": "奇怪的菌草，头上顶着嫩绿的小芽。",
+  "Quality": 1,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickWaveCoin,6,6"
+ },
+ {
+  "ID": 3007,
+  "Name": "小蜗",
+  "Desc": "背着小壳子，动作慢悠悠。",
+  "Quality": 1,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickInitCoin,10,10"
+ },
+ {
+  "ID": 3012,
+  "Name": "变形怪",
+  "Desc": "样子总在变换，没人能看清它的真面目。",
+  "Quality": 1,
+  "Weight": 5,
+  "Corner": "corner_3",
+  "AdFragNum": 1,
+  "Attr": "CriticalRate,0.02,0.02"
+ },
+ {
+  "ID": 3013,
+  "Name": "南瓜头",
+  "Desc": "带着笑脸的南瓜灯，夜里会自己发光。",
+  "Quality": 1,
+  "Weight": 10,
+  "Corner": "corner_6",
+  "AdFragNum": 1,
+  "Attr": "HpRate,0.15,0.15"
+ },
+ {
+  "ID": 3014,
+  "Name": "穿山甲",
+  "Desc": "身体覆盖坚硬鳞甲，喜欢蜷成一团。",
+  "Quality": 1,
+  "Weight": 10,
+  "Corner": "corner_1",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.15,0.15"
+ },
+ {
+  "ID": 3016,
+  "Name": "大嘴花",
+  "Desc": "长着巨口的植物，好像能吞下一切。",
+  "Quality": 1,
+  "Weight": 5,
+  "Corner": "corner_2",
+  "AdFragNum": 1,
+  "Attr": "AttackSpeedRate,0.05,0.05"
+ },
+ {
+  "ID": 3101,
+  "Name": "小机机",
+  "Desc": "用零件拼装的小机偶，总是咔嗒作响。",
+  "Quality": 2,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickInitCoin,20,20"
+ },
+ {
+  "ID": 3102,
+  "Name": "大蜗霸",
+  "Desc": "比小蜗牛大得多，长长的脖子仿佛一直在寻找猎物。",
+  "Quality": 2,
+  "Weight": 5,
+  "Corner": "corner_2|corner_1",
+  "AdFragNum": 1,
+  "Attr": "AttackSpeedRate,0.05,0.05|AttackRate,0.15,0.15"
+ },
+ {
+  "ID": 3103,
+  "Name": "蟹蟹",
+  "Desc": "横行霸道的硬壳螃蟹，钳子又大又有力。",
+  "Quality": 2,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickWaveCoin,10,10"
+ },
+ {
+  "ID": 3104,
+  "Name": "灰猫",
+  "Desc": "慵懒打盹，却总是很灵巧。",
+  "Quality": 2,
+  "Weight": 10,
+  "Corner": "corner_1",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.3,0.3"
+ },
+ {
+  "ID": 3105,
+  "Name": "虫虫",
+  "Desc": "小小的虫子，身体软绵绵地扭来扭去。",
+  "Quality": 2,
+  "Weight": 10,
+  "Corner": "corner_1|corner_4",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.15,0.15|CriticalDamage,0.15,0.15"
+ },
+ {
+  "ID": 3106,
+  "Name": "大黄",
+  "Desc": "全身金黄，气势十足的伙伴。",
+  "Quality": 2,
+  "Weight": 10,
+  "Corner": "corner_4",
+  "AdFragNum": 1,
+  "Attr": "CriticalDamage,0.3,0.3"
+ },
+ {
+  "ID": 3107,
+  "Name": "小火龙",
+  "Desc": "小巧的龙，身上冒着微弱的火焰。",
+  "Quality": 2,
+  "Weight": 10,
+  "Corner": "corner_6",
+  "AdFragNum": 1,
+  "Attr": "HpRate,0.3,0.3"
+ },
+ {
+  "ID": 3108,
+  "Name": "电力机兵",
+  "Desc": "布满电线与齿轮的机械体，闪着蓝光。",
+  "Quality": 2,
+  "Weight": 5,
+  "Corner": "corner_3|corner_6",
+  "AdFragNum": 1,
+  "Attr": "CriticalRate,0.02,0.02|HpRate,0.2,0.2"
+ },
+ {
+  "ID": 3201,
+  "Name": "雷鼠",
+  "Desc": "机灵的小伙伴，动作飞快。",
+  "Quality": 3,
+  "Weight": 10,
+  "Corner": "corner_6",
+  "AdFragNum": 1,
+  "Attr": "HpRate,0.5,0.5"
+ },
+ {
+  "ID": 3202,
+  "Name": "皮卡猫",
+  "Desc": "毛发竖立的猫咪，眼镜被自己的电光给弄伤了。",
+  "Quality": 3,
+  "Weight": 10,
+  "Corner": "corner_4",
+  "AdFragNum": 1,
+  "Attr": "CriticalDamage,0.5,0.5"
+ },
+ {
+  "ID": 3203,
+  "Name": "金甲王",
+  "Desc": "全身闪耀金光，甲壳坚硬无比。",
+  "Quality": 3,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickWaveCoin,15,15"
+ },
+ {
+  "ID": 3204,
+  "Name": "大黄蜂",
+  "Desc": "威风凛凛的蜂群首领，振翅声低沉有力。",
+  "Quality": 3,
+  "Weight": 5,
+  "Corner": "corner_7",
+  "AdFragNum": 1,
+  "Attr": "BrickInitCoin,30,30"
+ },
+ {
+  "ID": 3301,
+  "Name": "巨呱",
+  "Desc": "独来独往的青蛙王子，靠声音就能震慑敌人。",
+  "Quality": 3,
+  "Weight": 10,
+  "Corner": "corner_1|corner_4",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.25,0.25|CriticalDamage,0.25,0.25"
+ },
+ {
+  "ID": 3302,
+  "Name": "企鹅王",
+  "Desc": "冰雪之地的主宰，外表威严高贵。",
+  "Quality": 3,
+  "Weight": 10,
+  "Corner": "corner_1",
+  "AdFragNum": 1,
+  "Attr": "AttackRate,0.5,0.5"
+ }
+]
