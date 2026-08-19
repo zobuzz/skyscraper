@@ -54,21 +54,39 @@ namespace Skyscraper.Battle
             // command queue -- automated probing then reads a stalled world.
             Application.runInBackground = true;
 
-            if (!ConfigDB.Loaded)
-            {
-                try { ConfigDB.LoadAll(); }
-                catch (System.Exception e)
-                {
-                    Debug.LogError($"[Battle] config load failed: {e.Message}");
-                    enabled = false;
-                    return;
-                }
-            }
             _dropper = GetComponent<BrickDropper>();
             _challenges = GetComponent<ChallengeModifiers>();
         }
 
-        void Start() => StartBattle(SceneId, Hard);
+        /// Config has to be loaded before StartBattle reads a map row, and on
+        /// Android that load is a coroutine, so Start is an iterator and the
+        /// battle begins a few frames in.
+        ///
+        /// This used to load synchronously in Awake. That works in the Editor
+        /// and on desktop and fails on Android, where StreamingAssets is not a
+        /// real directory -- the APK boots, renders the camera's clear colour,
+        /// and shows nothing, because Awake disabled the runtime before
+        /// anything was built. Nothing else reports an error, so the only
+        /// symptom is an empty screen. See ConfigDB.LoadAny.
+        IEnumerator Start()
+        {
+            if (!ConfigDB.Loaded)
+            {
+                string failure = null;
+                yield return ConfigDB.LoadAny(e => failure = e);
+
+                if (failure != null || !ConfigDB.Loaded)
+                {
+                    Debug.LogError($"[Battle] config load failed: " +
+                                   $"{failure ?? "tables did not populate"} " +
+                                   $"(streamingAssetsPath={Application.streamingAssetsPath})");
+                    enabled = false;
+                    yield break;
+                }
+            }
+
+            StartBattle(SceneId, Hard);
+        }
 
         public void StartBattle(int sceneId, bool hard)
         {

@@ -49,12 +49,48 @@ namespace Skyscraper.Config
         static string PathFor(string table) =>
             Path.Combine(Application.streamingAssetsPath, Folder, table + ".json");
 
+        /// True where StreamingAssets is a real directory that File can open.
+        ///
+        /// On Android it is not: the files stay compressed inside the APK and
+        /// Application.streamingAssetsPath is a "jar:file:///...apk!/assets"
+        /// URL, so File.ReadAllText fails with "Could not find a part of the
+        /// path". WebGL is a URL for the same reason. Both must go through
+        /// UnityWebRequest instead.
+        ///
+        /// Detected from the path rather than with #if UNITY_ANDROID so that
+        /// the decision is made on the property that actually matters. A URL
+        /// scheme is exactly what File cannot open.
+        public static bool StreamingAssetsIsFile =>
+            !Application.streamingAssetsPath.Contains("://");
+
         // ------------------------------------------------------------------
         /// Synchronous load. Valid in the Editor and on standalone players,
         /// where StreamingAssets is a real directory on disk.
+        ///
+        /// Check StreamingAssetsIsFile before calling this, or prefer
+        /// LoadAny, which picks for you.
         public static void LoadAll()
         {
             Build(t => File.ReadAllText(PathFor(t)));
+        }
+
+        /// The load to call when you do not want to care which platform you are
+        /// on: reads directly where that works and falls back to the request
+        /// path where it does not. Always drive it as a coroutine.
+        ///
+        /// Exists because callers kept reaching for LoadAll -- it is the
+        /// convenient one and it works in the Editor, so a build that only ever
+        /// ran in the Editor looks correct right up until the APK boots to an
+        /// empty screen.
+        public static IEnumerator LoadAny(Action<string> onError = null)
+        {
+            if (StreamingAssetsIsFile)
+            {
+                try { LoadAll(); }
+                catch (Exception e) { onError?.Invoke(e.Message); }
+                yield break;
+            }
+            yield return LoadAllAsync(onError);
         }
 
         /// Coroutine load for Android / WebGL, where StreamingAssets lives

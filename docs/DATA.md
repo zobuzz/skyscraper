@@ -14,13 +14,43 @@ section of the [README](../README.md).
 ## Loading
 
 ```csharp
-ConfigDB.LoadAll();                 // editor / desktop: synchronous
-yield ConfigDB.LoadAllAsync(err => …);   // Android / WebGL
+yield return ConfigDB.LoadAny(err => …);   // always correct — use this
 ```
 
-On Android and WebGL, StreamingAssets is not a real directory on disk, hence the
-coroutine form. And note: after a **domain reload every static list is `null`
-again** — editor code and probes must reload and guard.
+`LoadAny` picks a path from `ConfigDB.StreamingAssetsIsFile` and is the only
+call sites should need. The two it dispatches to are still public:
+`LoadAll()` (synchronous, `File.ReadAllText`) and `LoadAllAsync()` (coroutine,
+`UnityWebRequest`).
+
+### On Android, StreamingAssets is not a directory
+
+This is the trap. It cost a blank-screen APK once already, so it is worth
+stating plainly:
+
+- In the Editor and on desktop, `Application.streamingAssetsPath` is a real
+  folder and `File.ReadAllText` works.
+- **On Android the files stay compressed inside the APK** and the path is a URL
+  — `jar:file:///data/app/…/base.apk!/assets/…`. `File` cannot open that. It
+  fails with `Could not find a part of the path`. WebGL is a URL for the same
+  reason.
+
+So `LoadAll()` **works perfectly in the Editor and fails on device**, which is
+the worst possible failure shape: everything looks correct until the APK boots.
+And the symptom is not an obvious crash — `BattleRuntime` catches the error and
+disables itself, so the player renders the camera's clear colour and *nothing
+else*. An empty screen, no visible error unless you read logcat.
+
+If an APK boots to a flat colour, check logcat for `[Battle] config load failed`
+before suspecting the scene, the camera or the shaders.
+
+Note that `StreamingAssetsIsFile` tests the path for `"://"` rather than using
+`#if UNITY_ANDROID`. The URL scheme is the property that actually matters —
+platform is only a proxy for it.
+
+### Domain reload
+
+After a **domain reload every static list is `null` again** — editor code and
+probes must reload and guard.
 
 Accessors: `ConfigDB.Hero(id)`, `.Enemy(id)`, `.Map(id)`,
 `.HeroLevel(heroId, lv)`, `.ScenWaves(scene, hard)`, plus the raw `List<>`s and

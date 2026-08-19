@@ -149,8 +149,16 @@ this repo) that automates this. Without it, the manual loop is:
 Write a private auto-property via its backing field:
 `type.GetField("<Gold>k__BackingField", FL).SetValue(obj, 9999)`.
 
-`ConfigDB.LoadAll()` must be called before any table access; after a domain
+`ConfigDB.LoadAny()` must have completed before any table access; after a domain
 reload the static lists are `null` again. Guard for it.
+
+**Never call `ConfigDB.LoadAll()` from runtime code.** It is synchronous
+`File.ReadAllText`, which works in the Editor and fails on Android, where
+StreamingAssets is a `jar:file:` URL inside the APK. Use the coroutine
+`ConfigDB.LoadAny(err => …)`, which dispatches on
+`ConfigDB.StreamingAssetsIsFile`. This exact mistake shipped an APK that booted
+to a blank screen with no visible error — see
+[DATA.md](DATA.md#on-android-streamingassets-is-not-a-directory).
 
 ## Geometry, precomputed
 

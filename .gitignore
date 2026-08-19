@@ -63,6 +63,10 @@ sysinfo.txt
 *.app
 crashlytics-build.properties
 
+# Burst symbols emitted next to a player build. The folder name is Unity's own
+# warning -- it is debug data for that one binary, not source.
+/*_BurstDebugInformation_DoNotShip/
+
 # ---------------------------------------------------------------------------
 # Extracted third-party art -- see docs/ART.md
 # ---------------------------------------------------------------------------
@@ -85,6 +89,9 @@ crashlytics-build.properties
 # Editor-run probe output, regenerated on every play session.
 /BattleProbe.txt
 /[Aa]ssets/UnityMCP/Log/
+
+# Outcome of the last scripted player build (BuildPlayerCommands.cs).
+/build_report.txt
 
 # MCP-for-Unity checks its own repo out here as a git dependency.
 /Unity-mcp/
